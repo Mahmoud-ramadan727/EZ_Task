@@ -47,5 +47,5 @@ C:\Users\Ahmad\Desktop\EZ_Task\obj\Debug\netcoreapp2.2\EZ_Task.dll
 C:\Users\Ahmad\Desktop\EZ_Task\obj\Debug\netcoreapp2.2\EZ_Task.pdb
 C:\Users\Ahmad\Desktop\EZ_Task\obj\Debug\netcoreapp2.2\EZ_Task.genruntimeconfig.cache
 C:\Users\Ahmad\Desktop\EZ_Task\obj\Debug\netcoreapp2.2\EZ_Task.csproj.CopyComplete
-C:\Users\Ahmad\Desktop\EZ_Task\obj\Debug\netcoreapp2.2\EZ_Task.csprojAssemblyReference.cache
 C:\Users\Ahmad\Desktop\EZ_Task\obj\Debug\netcoreapp2.2\EZ_Task.csproj.CoreCompileInputs.cache
+C:\Users\Ahmad\Desktop\EZ_Task\obj\Debug\netcoreapp2.2\EZ_Task.csprojAssemblyReference.cache

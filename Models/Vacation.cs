@@ -14,5 +14,9 @@ namespace EZ_Task.Models
 
         public int Allowance { get; set; }
 
+        public static implicit operator Vacation(List<Vacation> v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

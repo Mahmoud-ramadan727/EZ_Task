@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using EZ_Task.Data;
 using EZ_Task.Models;
+using EZ_Task.ViewModels;
 
 namespace EZ_Task.Controllers
 {
@@ -32,15 +33,20 @@ namespace EZ_Task.Controllers
             {
                 return NotFound();
             }
+            
 
-            var employee = await _context.Employee
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (employee == null)
+             EmployeeDetailsViewModel employeeDetailsViewModel = new EmployeeDetailsViewModel()
             {
-                return NotFound();
-            }
+                 Vacations = await _context.Vacation.ToListAsync(),
+                 Employee = await _context.Employee
+                .FirstOrDefaultAsync(m => m.Id == id),
+                
+               
 
-            return View(employee);
+
+             };
+             
+            return View(employeeDetailsViewModel);
         }
 
         // GET: Employees/Create
